@@ -1,0 +1,28 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    builder (3.0.0)
+    gettext (2.1.0)
+      locale (>= 2.0.5)
+    git (1.2.5)
+    i18n (0.4.2)
+    jeweler (1.5.1)
+      bundler (~> 1.0.0)
+      git (>= 1.2.5)
+      rake
+    locale (2.0.5)
+    rake (0.8.7)
+    rcov (0.9.9)
+    shoulda (2.11.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  builder
+  bundler (~> 1.0.0)
+  gettext
+  i18n
+  jeweler (~> 1.5.1)
+  rcov
+  shoulda
